@@ -1,4 +1,22 @@
+.bg{
+    /* The image used */
+    background-image: url(/background.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1{
+    color: white;
+}
+.container{
+    padding: 1px;
 
+}
 .section{
     /* border:2px solid black; */
     margin:0 25%;

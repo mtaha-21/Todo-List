@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg">
+<body>
     <header class="bg-dark mb-3">
         <div class="heading p-3 d-flex justify-content-center">
         <h1>SIMPLE TODO LIST</h1>
@@ -64,44 +64,12 @@
                         </p>
                         <ul class="list" id="list">
                             <li class="dropdown" onclick="enterAll()" id="all">All</li>
+                            <li><hr class="dropdown-divider"></li>
                             <li class="dropdown" onclick="enterActive()" id="active">Active</li>
+                            <li><hr class="dropdown-divider"></li>
                             <li class="dropdown" onclick="enterCompleted()" id="completed">Complete</li>
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="searchbar row mt-2">
-                    <div class="col-1" id="searchicon">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="searchdiv col-8">
-                        <input type="text" id="searchinput" class="searchinput" placeholder="search..."><i
-                            class="fa-sharp fa-solid fa-square-xmark" id="crossicon"></i>
-                    </div>
-                    <div>
-                        <span class="searchvalidation" id="searchvalidation">please enter valid data</span>
-                    </div>
-                </div> -->
+              
             </div>
-            <div class="contentdisplay  mt-4">
-                <div class="contenthead">
-                    <h4 class="p-3">TODO LISTS...</h4>
-                </div>
-                <div class="output">
-                    <div id="allouputdiv">
-                        <ul id="output">
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-<script src="js/main.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous">
-    </script>
-</body>
-</html>
